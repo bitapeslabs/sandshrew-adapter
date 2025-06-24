@@ -1,0 +1,25 @@
+{
+  "name": "sandshrew-adapter",
+  "version": "1.0.0",
+  "description": "Takes in a metashrew indexer and a bitcoin rpc and creates a sandshrew-like RPC interface which works wil OYL sdks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node esbuild.config.mjs && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@noble/secp256k1": "^1.6.3",
+    "@types/create-hash": "^1.2.6",
+    "@types/create-hmac": "^1.1.3",
+    "bitcoinjs-lib": "^6.1.7",
+    "create-hash": "^1.2.0",
+    "create-hmac": "^1.1.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "esbuild": "^0.25.5"
+  }
+}
