@@ -16,7 +16,8 @@
     "create-hash": "^1.2.0",
     "create-hmac": "^1.1.7",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
