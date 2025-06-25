@@ -30,7 +30,7 @@ export const jsonRpcHandler = async (req: Request, res: Response) => {
       return;
     }
 
-    if (method.startsWith("metashrew_")) {
+    if (method.startsWith("metashrew_") || method.startsWith("alkanes_")) {
       const result = await forwardToMetashrew(body);
       res.json(result);
       return;
